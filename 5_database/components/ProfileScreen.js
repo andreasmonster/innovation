@@ -7,10 +7,11 @@ const ProfileScreenC = (props) => {
 
     return (
             <View style={styles.container}>
-                 <Text style={styles.title}>Welcome Andreas</Text>
+                 <Text style={styles.title}>Profile</Text>
                  <Button title="Change Password"/>
                  <Button title="Change Email"/>
-                 <Button title="Recent Purchase"/>
+                 <Button title="Contact Us"/>
+                 <Button title="Logout"/>
             </View>
     );
 }
@@ -21,8 +22,7 @@ export default ProfileScreenC;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        padding: 24,
-        backgroundColor: "#eaeaea",
+        backgroundColor: "white",
         width: '100%',
         height: '100%',
 
@@ -30,10 +30,10 @@ const styles = StyleSheet.create({
     title: {
         marginTop: 16,
         paddingVertical: 8,
-        borderWidth: 4,
+        borderWidth: 0,
         borderColor: "#20232a",
         borderRadius: 6,
-        backgroundColor: "#61dafb",
+        backgroundColor: "#62bab5",
         color: "#20232a",
         textAlign: "center",
         fontSize: 30,

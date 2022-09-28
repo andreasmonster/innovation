@@ -1,15 +1,15 @@
 import React from 'react';
-import { StyleSheet, View, Text, Button} from 'react-native';
+import { StyleSheet, View, Text, Button, Image} from 'react-native';
 
 
 const BuyScreenC = (props) => {
 
     return (
-            <View style={styles.container}>
-               {
-                <Text>Tekst Fra BuyScreen</Text>
-               }
-            </View>
+    <View style={styles.container}>
+        <Text style={styles.title}>Buy / Rent</Text>
+        <Image source={require('./images/image_backpack.jpg')} style={{width: 300, height: 300}}></Image>
+        <Image source={require('./images/image_backpack.jpg')} style={{width: 300, height: 300}}></Image>
+   </View>
     );
 }
 
@@ -18,10 +18,22 @@ export default BuyScreenC;
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#34c6eb',
-        alignItems: 'center',
-        justifyContent: 'center',
+        flex: 1,
+        backgroundColor: "white",
         width: '100%',
-        height: '100%'
+        height: '100%',
+
+    },
+    title: {
+        marginTop: 16,
+        paddingVertical: 8,
+        borderWidth: 0,
+        borderColor: "#20232a",
+        borderRadius: 6,
+        backgroundColor: "#62bab5",
+        color: "#20232a",
+        textAlign: "center",
+        fontSize: 30,
+        fontWeight: "bold"
     },
 });

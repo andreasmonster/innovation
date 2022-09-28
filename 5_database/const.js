@@ -12,10 +12,10 @@ export const RECENT_PURCHASE =
 ];
 
 export const RECENT_TRIPS = [
-"Denmark",
-"England",
-"Spanien",
-"Italien"
+"Nokkeskoven, Avnø - Shelter 1 - D. 08/6",
+"Faksing Skov Lejrplads, Præstø - D. 09/10",
+"Shelter Jøvet, Fyns Hoved - D. 20/10",
+"Birkelund Shelter 4 - D. 31/10"
 ];
 
 
