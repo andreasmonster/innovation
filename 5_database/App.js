@@ -37,9 +37,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-       {/*} <Tab.Screen name="Skal slettes" component={ProfileScreen} /> */}
-       {/* <Tab.Screen name="Skal også slettes" component={BuyScreen} /> */}
-        <Tab.Screen name="Profile" component={StackNavigator} />
+        <Tab.Screen name="Profile" component={ProfileScreen} />
+        <Tab.Screen name="Buy / Rent" component={BuyScreen} />
+        <Tab.Screen name="Recent" component={StackNavigator} />
       </Tab.Navigator>
     </NavigationContainer>
   );
